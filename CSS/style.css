@@ -1,13 +1,22 @@
+header {
+    background-color: #f5f5ef;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 3px solid #28282b;
+    text-align: center;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #f1f3f1 font-family;
-    'Lato',
-    sans-serif;
+    background-color: #f1f3f1;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
-    /* Sets the font size to 16px */
-    font- weight: 300;
-    /* Sets the font weight to 300 */
+    font-weight: 300;
     line-height: 1.6;
-    /* Sets the line-height to 1.6 * the font-size */
     color: #28282b;
 }
 
@@ -62,6 +71,18 @@ a:active {
     color: #f5f5ef;
 }
 
+.button {
+    display: inline-block;
+    background-color: #28282b;
+    color: #f5f5ef;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #f5f5ef;
+    /* width of the border, type, color */
+    transition: 0.2s opacity;
+}
+
 a:hover,
 a:focus {
     color: #00f;
@@ -71,6 +92,8 @@ a:focus {
 .button:hover {
     opacity: 0.8;
     text-decoration: none;
+
+
 }
 
 
@@ -84,6 +107,7 @@ a:focus {
 .button.contact:hover {
     background-color: #f5f5ef;
     color: #00f;
+    border-bottom: 2px solid #28282b;
 
 }
 
@@ -92,18 +116,86 @@ img {
     width: 100%;
 }
 
+/* Layout styling*/
+.container {
+    padding: 0 15px;
+}
 
+.row {
+    margin: 25px 0;
+}
 
+#work.row {
+    padding-bottom: 25px;
+    border-bottom: 1px solid#4a4a4a;
+}
 
-
-.button {
+#hero h1 {
+    background-color: #f5f5ef;
+    padding: 20px 0;
     display: inline-block;
-    background-color: #28282b;
-    color: #f5f5ef;
-    font-weight: 400;
+    width: 100%;
+}
+
+.logo {
+    max-width: 250px;
+}
+
+nav>ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav>ul>li {
+    display: inline-block;
+
+
+}
+
+nav>ul>li>a {
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #00f;
+}
+
+nav>ul>li>a:visited {
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: inherit;
+    color: #28282b;
+}
+
+nav>ul>li>a:hover {
+    padding: 0 10px;
+    text-transform: uppercase;
+    background-color: #f5f5ef;
+    color: #ffffff;
+    font-weight: 700;
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid #f5f5ef;
-    /* width of the border, type, color */
     transition: 0.2s opacity;
+}
+
+nav>ul>li>a:active {
+    padding: 0 10px;
+    text-transform: uppercase;
+    background-color: #f5f5ef;
+    color: #28282b;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #28282b;
+    transition: 0.2s opacity;
+}
+
+#hero {
+    background-color: #ffffff;
+}
+
+main {
+    padding: 10px;
+
 }

@@ -15,7 +15,7 @@
   <meta name="theme-color" content="#ffffff">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
 
 </head>
 
@@ -23,48 +23,51 @@
   <link rel="stylesheet" href="./CSS/style.css" />
 
   <header>
-
-    <img src="img/Logo/Jeran_logo.png">
-    <nav>
-      <ul>
-        <li><a href="index.html">My Work</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="PawPals.html">PawPals</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <img src="img/Logo/Jeran_logo.png" alt="Logo" />
+      <nav>
+        <ul class="navigation">
+          <li><a href="index.html">My Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="PawPals.html">PawPals</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <br>
 
   <main>
-    <h1>Hi I'm Jeran</h1>
-    <h2> UI designer based in South Africa</h2>
+    <div id="hero">
+      <div class="container">
+        <h1>Hi I'm Jeran</h1>
+        <h2> UI designer based in South Africa</h2>
+      </div>
 
 
-    <br><br>
+      <br><br>
 
+      <div class="row"></div>
+      <div class="column"></div>
+      <picture>
+        <source srcset="img/Featured_images/Profile_Image @1x.jpg" media="(max-width:767px)">
+        <img src="img/Featured_images/Profile_Image @1x.jpg" alt="Featured_images">
+      </picture>
 
-    <div class="row"></div>
-    <div class="column"></div>
-    <picture>
-      <source srcset="img/featured_image" media="(max-width:767px)">
-      <img src="img/Featured_images/Profile_Image @1x.jpg" alt="Featured_images">
-    </picture>
-
-    <div class="column">
-      <p> Im a I.T Technician based in Johannesburg, South Africa.
-        I have a background in International hospitality and events management, customer service, graphic and web
-        design, digital marketing and UI design. I have been working in I.T for the past 1 year now.
-        Combining my background I am equipped with various skills such as interviewing, conducting research,
-        collaborating problem solving and creating content with keeping users in mind.
-        I love to design and create content. I like solving problems and finding a way to help others. I am yearning
-        to take my ideas
-        as well as others and turn them into something visually appealing that everyone can benefit from.</p>
-      <br>
-      <a href="files/Jeran Beard CV.pdf" target="_blank" class="button contact"> Here's my resume</a>
+      <div class="column">
+        <p> Im a I.T Technician based in Johannesburg, South Africa.
+          I have a background in International hospitality and events management, customer service, graphic and web
+          design, digital marketing and UI design. I have been working in I.T for the past 1 year now.
+          Combining my background I am equipped with various skills such as interviewing, conducting research,
+          collaborating problem solving and creating content with keeping users in mind.
+          I love to design and create content. I like solving problems and finding a way to help others. I am yearning
+          to take my ideas
+          as well as others and turn them into something visually appealing that everyone can benefit from.</p>
+        <br>
+      </div>
     </div>
-
+    </div>
     <br><br>
+    <a href="files/Jeran Beard CV.pdf" target="_blank" class="button contact"> Here's my resume</a>
 
     <div class="row"></div>
     <div class="column">
@@ -99,8 +102,9 @@
   </main>
 
 
-  <footer id="contact" style="margin-top: 10;">
-    <div class="BGSection container" <h2>Get in Touch</h2>
+  <footer>
+    <div class="container">
+      <h2>Get in Touch</h2>
       <button>Contact</button>
     </div>
 
@@ -114,7 +118,7 @@
     <li><a href="tel:+27793041546">Phone</a></li>
   </ul>
   <div>
-    <a href="mailto:jeran.beard@gmail.com" class="button contat">Email me</a>
+    <a href="mailto:jeran.beard@gmail.com" class="button contact">Email me</a>
   </div>
 
   <br> <br>
