@@ -7,6 +7,7 @@ header {
 
 }
 
+
 * {
     box-sizing: border-box;
 }
@@ -127,6 +128,8 @@ img {
 /* Layout styling*/
 .container {
     padding: 0 15px;
+
+
 }
 
 .row {
@@ -213,7 +216,7 @@ main {
 }
 
 .social-icon {
-    height: 40px;
+    height: 15px;
     width: auto
 }
 
@@ -273,6 +276,7 @@ main {
     to {
         transform: translate(200px, 50px);
     }
+
 }
 
 
@@ -297,28 +301,61 @@ Medium devices (640px and larger)
 
     }
 
+
+
+    .container {
+        max-width: 1200px;
+        padding: 0 0;
+        display: block;
+    }
+
+
+
     .col-md-6 {
-        width: 50%;
+        width: 40%;
+        padding-left: 40px;
+
+    }
+
+    .col-md-7 {
+        width: 60%;
+        padding-left: 40px;
+
+    }
+
+    .col-md-5 {
+        width: 60%;
+
+    }
+
+    .col-lg-3 {
+        width: 33%;
     }
 
     [class*="col-"] {
         float: left;
     }
 
-    .row::after {
+
+    .container .row::after {
         content: "";
         clear: both;
         display: table;
     }
 
-    .container {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-
 }
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 
 .content {
     margin-top: -25px;
@@ -331,6 +368,7 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {}
+
 
 
 /* ==============================
