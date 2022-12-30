@@ -14,26 +14,27 @@
   <meta name="msapplication-TileColor" content="#2b5797">
   <meta name="theme-color" content="#ffffff">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <script src="https://kit.fontawesome.com/b991b0ef6a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./CSS/style.css">
 
 </head>
 
 <body>
-  <link rel="stylesheet" href="./CSS/style.css">
-
   <header>
     <div class="container">
-      <img src="img/Logo/Jeran_logo_3.svg" alt="Logo" />
-      <nav>
-        <ul class="navigation">
-          <li><a href="index.html">My Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="PawPals.html">PawPals</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-
-
-      </nav>
+      <div class="navtoggle" id="myNavtoggle">
+        <img src="img/Logo/Jeran_logo_3.svg" alt="Logo" />
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">My Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="PawPals.html">PawPals</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
 
 
   </header>
@@ -67,8 +68,10 @@
     <div>
       <p> This is a UX/UI case study of a native IOS and Android mobile app.</p>
       <br>
-      <p>Paw Pals is a tracking app for our furry loved ones. If you in your home town or on vacation Paw Pals will help
-        you locate local groomers, Restaurants, Vets, Healthier food alternatives. It even goes as far as tracking your
+      <p>Paw Pals is a tracking app for our furry loved ones. If you in your home town or on vacation Paw Pals will
+        help
+        you locate local groomers, Restaurants, Vets, Healthier food alternatives. It even goes as far as tracking
+        your
         loved one incase they get lost and you can’t find them.
       </p>
       <br>
@@ -91,8 +94,10 @@
       <h2>Problem</h2>
 
       <p>Owning a pet can be stressful if you unsure of which vet to take to them to if they fall ill or get injured.
-        Finding a local park that allows dogs. Pet friendly restaurants can be a big issue as well. Maybe your dog has a
-        specific diet and you not sure where to buy their food. Finding a well known trustworthy groomer. There is a lot
+        Finding a local park that allows dogs. Pet friendly restaurants can be a big issue as well. Maybe your dog has
+        a
+        specific diet and you not sure where to buy their food. Finding a well known trustworthy groomer. There is a
+        lot
         to take into consideration when owning a pet and you need to ensure you know where places are in order to take
         off them.</p>
 
@@ -156,7 +161,8 @@
 
     <div class="column">
       <p>
-        The idea around this page was to provide a medical aid card for the animal. It has all the relevant information
+        The idea around this page was to provide a medical aid card for the animal. It has all the relevant
+        information
         needed and this helps frustration trying to remember everything. Along with near by vets if you are in need of
         one.</p>
     </div>
@@ -260,7 +266,10 @@
     </footer>
 
 
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
+
 </body>
 
 </html>

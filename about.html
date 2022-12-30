@@ -13,29 +13,35 @@
   <meta name="msapplication-TileColor" content="#2b5797">
   <meta name="theme-color" content="#ffffff">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/b991b0ef6a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body>
-  <link rel="stylesheet" href="./CSS/style.css">
+
   <header>
     <div class="container">
-      <img src="img/Logo/Jeran_logo_3.svg" alt="Logo">
-      <nav>
-        <ul class="navigation">
-          <li>
-            <a href="index.html">My Work</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="PawPals.html">PawPals</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="navtoggle" id="myNavtoggle">
+        <img src="img/Logo/Jeran_logo_3.svg" alt="Logo">
+        <nav>
+
+          <ul class="navigation">
+            <li>
+              <a href="index.html">My Work</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="PawPals.html">PawPals</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   <main>
@@ -129,6 +135,8 @@
     <br>
     <p>Copyright Jeran Beard 2022</p>
   </div>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </body>
 

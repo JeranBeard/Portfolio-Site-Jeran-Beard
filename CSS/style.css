@@ -150,7 +150,8 @@ img {
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 150px;
+    min-width: 641px;
 }
 
 nav>ul {
@@ -168,7 +169,7 @@ nav>ul>li>a {
     padding: 0 10px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #00f;
+    color: #28282b;
 }
 
 nav>ul>li>a:visited {
@@ -203,6 +204,45 @@ nav>ul>li>a:active {
     transition: 0.2s opacity;
 }
 
+nav>ul>li>a:hover {
+    color: #ffffff;
+}
+
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+
+.navtoggle,
+.navtoggle.responsive {
+    position: relative;
+}
+
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 24px;
+    padding: 10px 0;
+    margin: 10px 10px 10px 0;
+}
+
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
+}
+
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(234, 234, 234, 1);
+}
+
+.navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
+}
+
+
+
+
 #hero {
     background-color: #ffffff;
     text-align: center;
@@ -216,8 +256,37 @@ main {
 }
 
 .social-icon {
-    height: 15px;
+    height: 10px;
     width: auto
+}
+
+.footer.icon {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.footer.icon a {
+    padding: 0 10px;
+    color: rgb(255, 255, 255, 35%);
+    transition: 0.3s;
+}
+
+.footer.icon a:hover {
+    color: rgb(255, 255, 255, 100%);
+}
+
+#copyright {
+    color: rgb(255, 255, 255, 55%);
+    font-size: 12px;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+}
+
+about-picture {
+    width: 100%;
+    height: auto;
 }
 
 @keyframes color-change {
