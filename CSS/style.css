@@ -103,8 +103,8 @@ a:focus {
 
 .button.contact {
     display: inline-block;
-    background-color: navy;
-    color: white;
+    background-color: #00f;
+    color: #ffffff;
     font-weight: 400;
     text-decoration: none;
     padding: 10px;
