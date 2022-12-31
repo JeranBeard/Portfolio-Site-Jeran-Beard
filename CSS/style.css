@@ -232,7 +232,7 @@ nav>ul>li>a:hover {
 }
 
 .navtoggle.responsive li {
-    display: inline-block;
+    display: block;
     padding: 10px 0;
     border-top: 15px solid rgba(234, 234, 234, 1);
 }
